@@ -1,0 +1,26 @@
+.first{
+    display:flex;
+    justify-content:space-between;
+    background-color:black;
+}
+.left{
+    list-style-type:none;
+    display:flex;
+    width:20%;
+    justify-content:space-between;
+    justify-content:space-around;
+    color:aliceblue;
+    padding-top:5px;
+}
+.first h2{
+    color:aliceblue;
+    padding-left:10px;
+}
+ @media (max-width:480px){
+            .first{
+                display:flex;
+                flex-direction: column;
+                background-color: rgb(76, 150, 150);
+
+            }
+ }
